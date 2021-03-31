@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url("/src/font/Minecraft.ttf");
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("../img/spaceinvaders.jpg");
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+  font-family: "Minecraft";
+}
+
+form {
+  padding: 20px;
+}
+
+a {
+  color: whitesmoke;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+button {
+  margin: 20px;
+}
+
+.container {
+  height: 40vw;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
