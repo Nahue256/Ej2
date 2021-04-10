@@ -5,7 +5,8 @@ import moment from "moment";
 const Scores = (props) => {
   return (
     <div className="container">
-      {props.props.location.rightAnswers == undefined ? (
+      {console.log(props)}
+      {props.location.rightAnswers == undefined ? (
         <Redirect to="/" />
       ) : (
         <div className="center">
